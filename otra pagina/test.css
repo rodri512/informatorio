@@ -1,0 +1,87 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+body{
+    background-image: url(https://fondosmil.com/fondo/10857.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.flex-container{
+    display:flex;
+}
+
+.form__input{
+    margin: 10px 10px;
+    border-bottom: 5px;
+    border-style:groove;
+    padding: 5px 25px;
+    border-color: steelblue;
+    background-color:dimgrey;
+    border-radius: 10px;
+}
+
+.form{
+    display: inline-block;
+    background-color: rgb(128,128,128);
+    /*margin: 125px 450px;
+    padding: 200px 125px;*/
+    margin: 20px 450px;
+    padding: 100px 125px;
+    box-sizing: content-box;
+    border-radius: 20px;
+    border-style:groove;
+    border-color: steelblue;
+    text-align: center;
+    filter: drop-shadow(10px 10px 10px black);
+
+}
+::placeholder{
+    color: black;
+}
+
+.boton{
+    background-color: steelblue;
+    width: 140px;
+    height: 40px;
+    margin: 40px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.texto{
+    color: rgb(10, 10, 10);
+    text-shadow: 5px 5px 5px rgb(3, 3, 0);
+    background-color: transparent;
+}
+.imagen_container{
+    padding: 62px 62px;
+    height: 230px;
+    border-radius: 50%;
+    background-color:dimgrey;
+    filter: drop-shadow(10px 5px 5px black);
+
+}
+.img{
+
+    width: 150px;
+    filter:drop-shadow(10px 10px 5px black);
+}
+.parrafo{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.link{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+@media (max-width:500px){
+    .form{
+        margin: 100px 100px;
+        padding: 100px 100px;
+    }
+}
