@@ -1,0 +1,2 @@
+# informatorio
+proyecto del curso
